@@ -70,6 +70,8 @@ Publish the website in the given URL.
 
 ## OUTPUT:
 ![image](https://github.com/kaushik2022/cover/assets/129837020/22f4a6f5-35b2-4c58-b843-81cc9799c78f)
+![image](https://github.com/kaushik2022/cover/assets/129837020/cd5d169c-f4bc-478b-b493-a35dcc3de652)
+
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
