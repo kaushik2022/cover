@@ -69,7 +69,7 @@ Publish the website in the given URL.
 ```
 
 ## OUTPUT:
-![Alt text](image.png)
-![Alt text](image-1.png)
+![image](https://github.com/kaushik2022/cover/assets/129837020/22f4a6f5-35b2-4c58-b843-81cc9799c78f)
+
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
