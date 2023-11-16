@@ -1,4 +1,6 @@
 # Ex.06 Book Front Cover Page Design
+## Date:28-10-2023
+
 ## AIM:
 To design a book front cover page using HTML and CSS.
 
@@ -26,127 +28,48 @@ Publish the website in the given URL.
 ```html
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-         <meta name="viewport" 
-         content="width=device-width, initial-scale=1.0">
-         <style>
 
-        .bookpage{
-            width: 400px;
-            height: 600px;
-            color:white;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 20px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-image: url(/static/images/back.jpg);
-            background-size: cover;
-        }
-            
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Book Cover</title>
+</head>
 
-        .insight{
-            color: black;
+<body>
+   <div class="book-container">
+      <div class="image-container">
+         <img class="image" src="cover.jpg       " />
+      </div>
+      <div class="body-book">
+         <h1>Explore Underwater</h1>
+         <div class="line"></div>
+         <span class="book-title">WATER</span>
+         <p class="book-title Travel">AQUARIUM :)</p>
+         <p class="content">AQUARIUM are great way to be close to nature and keep your beautiful fishes home. It is a wonderful feeling of happiness for some people who immensely love water, beaches, and aquatic animals. 
+           <br><p class="quote"> “Aquariums, the source of life in a lifeless world.”</p>
 
-        }
+         </p>
+         <img src="design.png" class="design-image">
+         <div class="line1"></div>
+         <p class="book-edition">Second Edition</p>
+         <div class="line2"></div>
+         <div class="name-container">
+    
+            <p class="name">Jean Faster</p>
+            <p class="name">Faster></p>
+         </div>
+      </div>
+   </div>
+</body>
 
-        
-        .hrstyle{
-            width:100px;
-        }
-        .author{
-        
-            display: inline;
-            position: relative;
-            color: white;
-            top:190px;
-            
-            font-family:Georgia;
-            font-size: medium;
-        }
-        .booktitle{
-            font-family: 'Courier New', Courier, monospace;
-            font-size: larger;
-            text-align: center;
-            position: relative;
-            top: 30px;
-        
-        }
-        .id {
-            width:400px;
-            position: relative;
-            top:180px;
-            
-        }
-        .pub{
-            font-size: medium;
-            position: relative;
-            top:155px;
-            left:330px;
-        }
-        .ed{
-            color: black;
-            font-size: medium;
-            font-family: Verdana;
-            position:relative;
-            top:85px;
-
-        }
-        .subtitle{
-            font-family:Tahoma;
-            font-size: large;
-            position: relative;
-            top:40px;
-        }
-        .mypic{
-            position: relative;
-            top: 135px;
-            left: 260px;
-            width: 100px;
-            height: 100px;
-            background-size: cover;
-        }
-        </style>
-        <title>Book Cover Page</title>
-    </head>
-    <body>
-        <div class="bookpage">
-            <div class="insight">
-                SEC INSIGHT
-            </div>
-            <div class="hrstyle">
-                <hr style="color: yellow;">
-            </div>
-            <div class="booktitle">
-                <h1>Web Development: The Complete Reference</h1></div>
-            <div class="subtitle">
-                with Django and Bootstrap Insights
-            </div>
-            <div class="mypic">
-                <img src="/static/images/my.jpg" width="130" height="145" alt="">
-            </div>
-            <div class="id">
-                <hr style="color: orange;">
-            </div>
-            <div class="author">
-               <p><b>MUKESH R</b></p>
-            </div>
-            <div class="pub">
-                SEC
-            </div>
-            <div class="ed">
-                <b>Extended Edition</b>
-            </div>
-        </div>
-    </body>
 </html>
+
+
 ```
 
-
 ## OUTPUT:
-![OutPut](out3.png)
-
-## HTML VALIDATOR:
-![HTMLValidator](./valid.png)
-
+![Alt text](image.png)
+![Alt text](image-1.png)
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
